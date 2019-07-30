@@ -1,0 +1,157 @@
+@CHARSET "UTF-8";
+
+/* h1 */
+
+.main{
+	width:90%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.main h1{
+	text-align: center;
+	font-size: 40px;
+	border-top: solid;
+	border-bottom: solid;
+	padding-top: 5px;
+	margin-top: 90px;
+	font-weight: bold;
+	color: #FFB638;
+}
+
+/* table */
+
+.main table{
+		margin-top:2%;
+		width:100%;
+}
+
+.main th{
+		padding:1% 1% 1% 0.5%;
+		border:2px solid lightgray;
+		background-color:#FFB638;
+		color:white;
+		font-weight: bold;
+}
+
+.main td{
+		padding-left:1%;
+		border:2px solid lightgray;
+		font-weight: bold;
+}
+
+/* button_cssの内容 */
+
+/* submitのボタン */
+
+.submit_btn_box3{
+	width : 100%;
+	display : inline-block;
+	margin-top : 5px;
+	margin-bottom : 5px;
+	text-align: center;
+}
+
+.submit_btn3 {
+    padding: 0.5em 1em;
+    text-decoration:none;
+    border-radius:100px;
+    width: 10%;
+	height : 40px;
+	margin-top : -5px;
+	margin-left : 6px;
+    font-size: 1vw;
+    font-weight: bold;
+    text-align:center;
+    outline: none;
+    color:#fff;
+    background: #FFB638;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFB638), to(#FFB638) );
+    background: -moz-linear-gradient(-90deg, #FFB638, #FFB638);
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFB638', endColorstr='#FFB638');
+}
+
+.submit_btn3:hover{
+    color:#fff;
+    background-color:#FFB638;
+    cursor: pointer;
+    opacity:0.5;
+    background: #FFB638;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFB638), to(#FFB638) );
+    background: -moz-linear-gradient(-90deg, #FFB638, #FFB638);
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFB638', endColorstr='#FFB638');
+}
+
+.submit_btn3:active{
+	background: #FFB638;
+}
+
+.submit_btn3:disabled{
+	background-image: none;
+    background-color: #FFB638;
+    border-color: #FFB638;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFB638), to(#FFB638) );
+    background: -moz-linear-gradient(-90deg, #FFB638, #FFB638);
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFB638', endColorstr='#FFB638');
+	opacity: 0.5;
+}
+
+/* anchorのボタン */
+
+a.submit_anc01{
+	width: 10%;
+	height: 40px;
+	line-height: 38px;
+	display: inline-block;
+	border: 2px outset #e4e4e4;
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 5px;
+    color: #fff;
+    background: #FFB638;
+    box-sizing:border-box;
+}
+
+.submit_anc01:hover{
+	cursor: pointer;
+    opacity:0.5;
+}
+
+.submit_anc01:active{
+	background: #FFB638;
+    border-style:inset;
+}
+
+/* mypageのボタンの内容 */
+
+.main .button{
+	margin-top:3%;
+	text-align:center;
+}
+
+.main .submit_anc{
+	width:150px;
+	margin:0 auto;
+	border:2px outset;
+    border-color:lightgray,gray,gray,lightgray;
+    text-decoration:none;
+    border-radius:100px;
+    padding:15px 25px;
+    font-size:13px;
+    text-align:center;
+    color:#fff;
+    background: #FFB638;
+}
+
+.main .submit_anc:hover{
+	cursor: pointer;
+    opacity:0.5;
+}
+
+.main .submit_anc:active{
+	background: #FFB638;
+    border-style:inset;
+}
